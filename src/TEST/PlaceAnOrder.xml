@@ -1,0 +1,12 @@
+<suite name="Login Function Suite">
+    <test name="Login Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="emailInput" value="testtest123@hotmail.com"></parameter>
+        <parameter name="passwordInput" value="123456"></parameter>
+
+        <classes>
+            <class name="TEST.PlaceAnOrderFunction"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,14 @@
+<suite name="Login Function Suite">
+    <test name="Login Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="emailInput" value="testtest123@hotmail.com"></parameter>
+        <parameter name="passwordInput" value="123456"></parameter>
+        <parameter name="invalidEmail" value="sss@gmail.ciom"></parameter>
+        <parameter name="invalidPassword" value="333"></parameter>
+
+        <classes>
+            <class name="TEST.LoginFunction"></class>
+        </classes>
+    </test>
+
+</suite>
